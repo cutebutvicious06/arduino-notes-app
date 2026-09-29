@@ -1,0 +1,8 @@
+name: Copy of Edge AI Assistant
+description: Chatbot powered by a local LLM
+ports: []
+bricks:
+- arduino:web_ui: {}
+- arduino:llm:
+    model: llamacpp:gemma-3-1b-it-Q4_0
+icon: 💬
